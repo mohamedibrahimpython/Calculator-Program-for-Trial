@@ -1,0 +1,18 @@
+#Test case for a and b equalities 
+a = 5
+b = 5
+
+# If condition to check equality
+if a == b:
+    # Assertion to verify the test passes only if a equals b
+    assert a == b, "Test failed: a and b are not equal"
+
+    # If assertion passes, expected equals actual
+    expected = a
+    actual = b
+
+    print("Test passed!")
+    print("Expected:", expected)
+    print("Actual:", actual)
+else:
+    print("Test failed! a and b are not equal.")
